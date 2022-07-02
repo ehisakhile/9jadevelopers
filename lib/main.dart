@@ -90,7 +90,7 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
     PushNotificationHelper.configurePush();
-    WidgetsBinding.instance?.addPostFrameCallback(
+    WidgetsBinding.instance!.addPostFrameCallback(
       (timeStamp) {
         EasyLoading.instance
           ..displayDuration = const Duration(milliseconds: 2000)

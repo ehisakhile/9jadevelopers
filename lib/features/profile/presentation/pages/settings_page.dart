@@ -38,7 +38,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     super.initState();
     userSettingCubit = BlocProvider.of<UserSettingCubit>(context)
       ..getUserSettings();
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
       if (VideoCompress.compressProgress$.notSubscribed) {
         listenCompressions();
       } else {

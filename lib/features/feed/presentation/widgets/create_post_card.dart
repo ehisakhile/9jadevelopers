@@ -116,7 +116,7 @@ class _CreatePostCardState extends State<CreatePostCard> {
       });
 
     if (widget.replyEntity != null)
-      WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+      WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
         SystemChannels.textInput.invokeMethod('TextInput.show');
       });
 

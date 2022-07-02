@@ -48,7 +48,7 @@ class _SearchScreenState extends State<SearchScreen>
     tabController!.index = 2;
     focusNode = FocusNode();
     textEditingController = TextEditingController();
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
       if (widget.searchedText?.isNotEmpty == true) {
         tabController!
             .animateTo(2, duration: const Duration(milliseconds: 300));

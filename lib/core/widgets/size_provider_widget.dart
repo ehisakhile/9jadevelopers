@@ -20,7 +20,7 @@ class _SizeProviderWidgetState extends State<SizeProviderWidget> {
   }
 
   void _onResize() {
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance!.addPostFrameCallback((timeStamp) {
       if (context.size is Size) {
         widget.onChildSize(context.size!);
       }

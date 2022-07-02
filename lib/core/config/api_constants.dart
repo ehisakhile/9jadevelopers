@@ -1,8 +1,8 @@
 import 'package:colibri/core/common/static_data/all_countries.dart';
 
 class ApiConstants {
-  static const String baseUrl = "https://www.csm-demo.ru/mobile_api/";
-  static const String baseMediaUrl = "https://www.csm-demo.ru/";
+  static const String baseUrl = "https://9jadevelopers.com/mobile_api/";
+  static const String baseMediaUrl = "https://9jadevelopers.com/";
   static const String loginEndPoint = "login";
   static const String signUpEndPoint = "signup";
   static const String resetPassword = "resetpassword";
