@@ -158,10 +158,10 @@ class AppFontSize {
   static const num headLine3 = 48;
   static const num headLine2 = 60;
   static const num headLine1 = 96;
-  static const num subTitle1 = 16;
-  static const num subTitle2 = 14;
-  static const num bodyText1 = 16;
-  static const num bodyText2 = 14;
+  static const num subTitle1 = 17;
+  static const num subTitle2 = 15;
+  static const num bodyText1 = 18;
+  static const num bodyText2 = 16;
   static const num button = 15;
   static const num caption = 12;
   static const num overLine = 10;

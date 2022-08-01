@@ -14,3 +14,6 @@ class MediaData {
     this.id,
   });
 }
+
+
+///flutter packages pub run build_runner build

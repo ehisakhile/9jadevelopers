@@ -22,15 +22,15 @@ class Images {
   static const drawer = "$base/drawer.svg";
   static const poll = "$base/polls.svg";
   static const createSearch = "$base/search.svg";
-  static const showLikes = "$base/heart.svg";
+  static const showLikes = "$base/thumb-up.svg";
 
   // social bar
   static const comment = "$base/chat.svg";
-  static const like = "$base/like.svg";
-  static const heart = "$base/heart.svg";
+  static const like = "$base/thumb-up.svg";
+  static const heart = "$base/thumb-up.svg";
   static const filledHeart = "$base/heart-color.svg";
   static const repost = "$base/refresh_double.svg";
-  static const share = "$base/share.svg";
+  static const share = "$base/share-repo.svg";
   static const people = "$base/people.svg";
   static const person = "$base/person.svg";
 

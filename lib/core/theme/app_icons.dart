@@ -8,9 +8,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class AppIcons {
-  static Image appLogo = Images.logo.toAssetImage(height: 60, width: 60);
+  static Image appLogo = Images.logo.toAssetImage(height: 60, width: 70);
   // bottom app bar
-  static const bottomBarSize = 18;
+  static const bottomBarSize = 30;
   static SvgPicture messageIcon(
           {num height = bottomBarSize,
           num width = bottomBarSize,
@@ -65,8 +65,8 @@ class AppIcons {
           : AppColors.colorPrimary.withOpacity(.5));
   static SvgPicture videoIcon({bool enabled = true, num? height, num? width}) =>
       Images.video.toSvg(
-          height: height ?? 15,
-          width: width ?? 15,
+          height: height ?? 20,
+          width: width ?? 20,
           color: enabled
               ? AppColors.colorPrimary
               : AppColors.colorPrimary.withOpacity(.5));
@@ -99,7 +99,7 @@ class AppIcons {
       );
 
   static SvgPicture createSearchIcon(
-          {bool enabled = true, num height = 15, num width = 15}) =>
+          {bool enabled = true, num height = 25, num width = 25}) =>
       Images.createSearch.toSvg(
           height: height,
           width: width,
@@ -108,29 +108,29 @@ class AppIcons {
               : AppColors.colorPrimary.withOpacity(.5));
 
   // social bar
-  static Widget drawerIcon({num height = 5, num width = 5}) => Images.drawer
+  static Widget drawerIcon({num height = 20, num width = 20}) => Images.drawer
       .toSvg(height: height.toHeight, width: width.toWidth)
       .toPadding(8);
   // static Widget likeIcon = Images.likeOption.toSvg();
   static Widget likeIcon({Color? color}) =>
-      Images.likeOption.toSvg(height: 14, width: 14, color: color);
+      Images.likeOption.toSvg(height: 18, width: 18, color: color);
   // static Widget heartIcon = Images.heart.toSvg();
-  static Widget heartIcon({Color? color, num height = 14, num width = 14}) =>
+  static Widget heartIcon({Color? color, num height = 18, num width = 18}) =>
       Images.heart.toSvg(height: height, width: width, color: color);
   static Widget filledHeartIcon(
-          {Color? color, num height = 12, num width = 12}) =>
+          {Color? color, num height = 18, num width = 18}) =>
       Images.filledHeart.toSvg(height: height, width: width, color: color);
 
   static Widget showLikesIcon(
-          {Color? color, double height = 30, double width = 30}) =>
+          {Color? color, double height = 18, double width = 18}) =>
       Images.showLikes.toSvg(height: height, width: width, color: color);
-  static Widget commentIcon = Images.comment.toSvg(height: 14, width: 14);
-  static Widget repostIcon({Color? color, num height = 14, num width = 14}) =>
+  static Widget commentIcon = Images.comment.toSvg(height: 18, width: 18);
+  static Widget repostIcon({Color? color, num height = 18, num width = 18}) =>
       Images.repost.toSvg(height: height, width: width, color: color);
   static Widget shareIcon(
           {Color color = AppColors.optionIconColor,
-          num height = 16,
-          num width = 16}) =>
+          num height = 18,
+          num width = 18}) =>
       Images.share.toSvg(
         height: height,
         width: width,
@@ -198,4 +198,4 @@ class AppIcons {
       Images.personOption.toSvg(height: size, width: size, color: color);
 }
 
-const drawerMenuSize = 20.0;
+const drawerMenuSize = 25.0;

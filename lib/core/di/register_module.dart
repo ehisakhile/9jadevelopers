@@ -20,7 +20,7 @@ abstract class RegisterModule {
         ],
       );
 
-  // @lazySingletoncr
+  // @lazySingleton
   // TwitterLogin get twitterLogin=>TwitterLogin(
   //   consumerKey: 'E261JBzxTeuj5PLM5bgN2VLUY',
   //   consumerSecret: 'lc38SoHLDU8XZ7BhrljvcrsfiIWxGknzPSnPPSfmPCzalXqKdp',);
