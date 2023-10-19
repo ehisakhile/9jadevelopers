@@ -1,9 +1,4 @@
 # 9ja Developers
 
-9ja Developers
+9ja Developers - A Tech Community
 
-## Getting Started
-
-Source code for 9jadevelopers
-
-# 9jadevelopers
